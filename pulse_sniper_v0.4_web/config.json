@@ -1,0 +1,18 @@
+{
+    "mode": "live",
+    "poll_interval_seconds": 20,
+    "dexscreener_enabled": true,
+    "dexscreener_url": "https://api.dexscreener.com/token-profiles/latest/v1",
+    "pump_fun_enabled": false,
+    "pump_fun_api": "",
+    "min_marketcap": 10000,
+    "max_marketcap": 200000,
+    "min_volume": 20000,
+    "min_tx_per_min": 50,
+    "min_holders": 120,
+    "score_threshold": 7.0,
+    "telegram_bot_token": "8372726167:AAHJI2LBwBywyT68viI9IjoohmW4pw3T8n8",
+    "telegram_chat_id": "5597344716",
+    "max_parallel_alerts_per_minute": 3,
+    "retry_backoff_seconds": 5
+}

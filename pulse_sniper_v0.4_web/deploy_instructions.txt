@@ -1,0 +1,12 @@
+Replit deployment quick steps (webserver-enabled)
+
+1) Import ZIP into Replit (Create App -> Python template -> upload files or upload ZIP and extract)
+2) In Shell: pip install -r requirements.txt
+3) Set Run command to: python main.py
+4) Click Run
+5) After app launches, Replit will show a public URL (Open it). Use that URL in UptimeRobot as a monitor (HTTP(s) - GET - every 5 minutes)
+6) UptimeRobot will keep your Replit awake by pinging the root / or /health endpoint.
+
+Notes:
+- Replit's free tier may still sleep under heavy limits; using UptimeRobot reduces sleep times effectively.
+- If you prefer, I can prepare a version that uses 'waitress' or 'gunicorn' for production use.

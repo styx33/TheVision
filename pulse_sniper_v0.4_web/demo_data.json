@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DEMO DOGE",
+        "symbol": "DDOG",
+        "address": "0xdead1",
+        "marketcap": 85000,
+        "volume": 32000,
+        "tx_per_min": 73,
+        "holders": 190,
+        "url": "https://example.com/token/0xdead1",
+        "has_social": true,
+        "lp_locked": true
+    },
+    {
+        "name": "HOT COIN",
+        "symbol": "HOTC",
+        "address": "0xdead3",
+        "marketcap": 120000,
+        "volume": 25000,
+        "tx_per_min": 55,
+        "holders": 250,
+        "url": "https://example.com/token/0xdead3",
+        "has_social": true,
+        "lp_locked": false
+    }
+]
